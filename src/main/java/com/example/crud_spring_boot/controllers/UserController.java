@@ -26,10 +26,10 @@ public class UserController {
     //bringing user data
     @GetMapping("/user")
     public List<User> userFunction(){
-       return Arrays.asList(new User(9L, "John" , "john@gmail.com"),
-               new User(18L, "SkullX2" , "skullskull@gmail.com"),
-               new User(27L, "MattMurdock" , "mmdk@gmail.com"),
-               new User(99L, "DuckDumbell" , "dumble@gmail.com"));
+       return Arrays.asList(new User(9L, "John" , "john123@gmail.com"),
+               new User(18L, "SkullX2" , "skullskull999@gmail.com"),
+               new User(27L, "MattMurdock" , "mmdk666@gmail.com"),
+               new User(99L, "DuckDumbbell" , "dumble222@gmail.com"));
     }
 
 
